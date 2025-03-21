@@ -1,7 +1,9 @@
 //type of props
 type ParagraphParams={
-    text: string;
+    // ? string or undifiend
+    text?: string;
   }
+
 function Paragraph(props:ParagraphParams){
     return(
     <div>{props.text}</div>
