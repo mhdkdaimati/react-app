@@ -5,6 +5,7 @@ function About(){
         <>
         <div>about page</div>
         <Link href="/">Home</Link>
+        
         </>
     )
 }
